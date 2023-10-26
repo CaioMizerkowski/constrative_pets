@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "constrative_pets"
+version = "0.1.0"
+description = "constrative learnig to classify oxford-iiit-pet dataset"
+repository = "https://github.com/CaioMizerkowski/constrative_pets"
+authors = ["Caio Mizerkowski <caiomizerkowski@gmail.com>"]
+keywords = ["constrative learning", "oxford-iiit-pet"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.1"
+Pillow = "^10.1"
+numpy = "^1.26"
+seaborn = "^0.13"
+pytorch-ignite = "^0.4"
+onnx = "^1.14"
+onnxruntime-gpu = "^1.16"
+kornia = "^0.7"
+torchmetrics = "^1.2"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
